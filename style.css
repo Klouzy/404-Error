@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* Helper */
+* {
+    background-color: rgb(35, 25, 35);
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation Bar */
+.navigation {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.navigation a {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin: 10px;
+}
+.navigation a:hover {
+    color: rgb(20, 220, 180);
+}
+
+
+/* Main Content */
+.content {
+    position: relative;
+    padding: 50px;
+}
+.content .title {
+    display: flex;
+    justify-content: center;
+}
+.content .title span {
+    color: rgb(20, 220, 180);
+    font-size: 50px;
+}
+.content .title h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+.content .subtitle {
+    display: flex;
+    justify-content: center;
+}
+.content .subtitle p {
+    color: rgb(170, 170, 170);
+    font-size: 20px;
+}
+.content .button {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.content .button a {
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 220, 180);
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+.content .button a:hover {
+    color: rgb(20, 220, 180);
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* Footer */
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.copyright p {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
