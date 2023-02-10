@@ -2,4 +2,4 @@
 
 Page was made with only html and css
 
-Live Demo: https://klouzyerror404.netlify.app
+Live Demo: https://freetimeproject01.netlify.app
